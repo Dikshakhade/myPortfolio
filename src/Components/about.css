@@ -1,0 +1,15 @@
+.about-div {
+  height: fit-content;
+  width: 70vw;
+  padding: 5rem;
+}
+.about-div h1 {
+  color: white;
+}
+.about-div p {
+  color: white;
+  letter-spacing: 1.2px;
+}
+.about-div img {
+  padding: 0.8rem;
+}

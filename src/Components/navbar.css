@@ -1,0 +1,36 @@
+.nav-wrap {
+  height: 10vh;
+  width: 100vw;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  position: sticky;
+  top: 0px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.nav-content {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+  font-family: "Electrolize", sans-serif;
+  font-size: 200;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+}
+.nav-content li {
+  padding: 0.5rem;
+}
+.nav-content li a {
+  text-decoration: none;
+  color: white;
+}
+.nav-content li:hover {
+  color: rgb(138, 167, 245);
+}

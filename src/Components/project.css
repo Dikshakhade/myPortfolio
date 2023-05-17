@@ -1,0 +1,47 @@
+.container-pro {
+  direction: flex;
+  flex-direction: column;
+  padding: 5rem 5rem;
+  color: white;
+}
+.container-pro h1 {
+  color: white;
+}
+.wrapper {
+  height: 50vh;
+  width: 90vw;
+
+  margin-top: 4rem;
+}
+.project1 {
+  display: flex;
+}
+.description {
+  width: 50vw;
+  height: 40vh;
+  font-size: 1rem;
+  /* margin: 5rem 0.5rem 5rem 0.5rem; */
+}
+.description h2 {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 0.045em;
+}
+
+.description h2:hover {
+  color: skyblue;
+}
+.projimg {
+  border-radius: 15px solid skyblue;
+}
+.projimg img {
+  width: 40vw;
+  height: 50vh;
+  margin: 0.5rem;
+  border-radius: 15px solid skyblue;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

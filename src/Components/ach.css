@@ -1,0 +1,34 @@
+#ach-h1 {
+  color: white;
+  padding-left: 5rem;
+}
+.ach-wrap {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  padding-left: 6rem;
+}
+.ach-certi {
+  height: 40vh;
+  width: 40vw;
+
+  margin: 2rem auto;
+}
+.ach-certi p {
+  color: white;
+
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 16rem;
+}
+#cert1 {
+  background-image: url("E:\portfolio\portfolio\src\images\css.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#cert2 {
+  background-image: url("E:\portfolio\portfolio\src\images\javascript.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
