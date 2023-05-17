@@ -22,7 +22,7 @@
 .pic {
   height: 70vh;
   width: 70vw;
-  background-image: url("E:\portfolio\portfolio\src\images\about_icon.png");
+  background-image: url("../images/about_icon.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
