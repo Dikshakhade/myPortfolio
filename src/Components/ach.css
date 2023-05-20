@@ -26,9 +26,22 @@
   background-image: url("../images/css.png");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 #cert2 {
   background-image: url("../images/javascript.png");
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
+}
+@media (max-width: 650px) {
+  .ach-wrap {
+    width: 100%;
+    height: 30%;
+    flex-direction: column;
+    padding-left: 0px;
+  }
+  .ach-certi {
+    width: 80%;
+  }
 }

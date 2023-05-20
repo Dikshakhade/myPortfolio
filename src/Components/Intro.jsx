@@ -1,5 +1,6 @@
 import React from "react";
 import "./Intro.css";
+import About from "./About";
 
 function Intro() {
   return (

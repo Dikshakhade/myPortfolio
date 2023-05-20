@@ -26,23 +26,17 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+  margin-left: 5%;
 }
-/* .work {
-  padding-top: 10vh;
-  height: 30vh;
-  width: 20vw;
+@media (max-width: 650px) {
+  .introdiv {
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+  }
+  .left-div {
+    height: 50%;
+    width: 100%;
+    padding-bottom: 0px;
+  }
 }
-.pics {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-}
-.pics img {
-  height: 10vh;
-  width: 8vw;
-  padding: 0.8rem;
-}
-.pic-horizontal {
-  height: 10vh;
-  width: 8vw;
-} */

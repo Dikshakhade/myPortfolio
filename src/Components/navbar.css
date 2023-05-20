@@ -15,10 +15,11 @@
 .nav-content {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+
+  justify-content: space-evenly;
   padding: 1.5rem;
   font-family: "Electrolize", sans-serif;
-  font-size: 200;
+  /* font-size: 200; */
   letter-spacing: 0.15em;
   cursor: pointer;
   color: white;
@@ -27,10 +28,54 @@
 .nav-content li {
   padding: 0.5rem;
 }
+.button {
+  display: none;
+}
 .nav-content li a {
   text-decoration: none;
   color: white;
+  font-size: large;
 }
-.nav-content li:hover {
-  color: rgb(138, 167, 245);
+.nav-content li a:hover {
+  color: rgb(218, 150, 24);
+}
+
+#hidden {
+  display: flex;
+}
+
+@media (max-width: 850px) {
+  .nav-content li a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .nav-wrap {
+    display: none;
+  }
+  .button {
+    display: flex;
+  }
+  #hidden {
+    position: absolute;
+    left: 0px;
+    top: 7vh;
+    width: 100vw;
+    height: fit-content;
+  }
+  .nav-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    transition: ease-in;
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
 }
