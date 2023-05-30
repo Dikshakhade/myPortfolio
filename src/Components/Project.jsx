@@ -15,6 +15,7 @@ function Project() {
             <div>
               A home automation system where you can control home appliances
               using web app <br />
+              Using React.js, Socket.io controlled with RaspberryPi
             </div>
           </div>
           <a
