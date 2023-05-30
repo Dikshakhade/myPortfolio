@@ -2,6 +2,7 @@ import React from "react";
 import "./project.css";
 import clg from "../images/clg_web.png";
 import book from "../images/book.png";
+import home from "../images/home.png";
 function Project() {
   return (
     <div className="container-pro" id="project">
@@ -16,7 +17,14 @@ function Project() {
               using web app <br />
             </div>
           </div>
-          <div className="projimg">this is image you have to click here</div>
+          <a
+            className="projimg"
+            href="https://github.com/Dikshakhade/Home_Auto"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={home} alt="home" />
+          </a>
         </div>
       </div>
       <div className="wrapper">
