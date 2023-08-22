@@ -11,10 +11,10 @@
   transform: scale(1.05);
 }
 .contact-icon {
-  height: 10vh;
+  display: flex;
+  justify-content: center;
   font-size: 1.1rem;
-  margin: auto;
 }
 .contact a {
-  padding: 2.5vh;
+  padding: 1.5vh;
 }

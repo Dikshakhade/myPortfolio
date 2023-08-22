@@ -7,7 +7,7 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div>
-        <h1 style={{ color: "#8276e3", marginBottom: "4vh" }}>Let's Chat</h1>
+        <h1 style={{ color: "#8276e3", marginBottom: "4vh" }}>Let's Connect</h1>
 
         <div className="contact-icon">
           <a

@@ -12,7 +12,14 @@ function Footer() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <p style={{ textAlign: "center", paddingTop: "5%" }}>
+        <p
+          style={{
+            textAlign: "center",
+            padding: "5% 0 1% 0",
+
+            fontSize: "1.2rem",
+          }}
+        >
           @Image by studio4rt on Freepik
         </p>
       </a>{" "}

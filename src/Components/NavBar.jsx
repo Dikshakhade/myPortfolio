@@ -12,12 +12,12 @@ const links = [
   },
   {
     id: 2,
-    text: "project",
+    text: "projects",
     url: "#project",
   },
   {
     id: 3,
-    text: "achievement",
+    text: "certificates",
     url: "#achievement",
   },
   {
