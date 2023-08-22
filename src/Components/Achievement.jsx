@@ -2,9 +2,9 @@ import React from "react";
 import "./ach.css";
 function Achievement() {
   return (
-    <>
+    <div id="achievement">
       <h1 id="ach-h1">Certificates</h1>
-      <div className="ach-wrap" id="achievement">
+      <div className="ach-wrap">
         <a
           href="https://www.hackerrank.com/certificates/6918eb2567a0"
           style={{ textDecoration: "none" }}
@@ -23,7 +23,7 @@ function Achievement() {
           <div className="ach-certi" id="cert2"></div>
         </a>
       </div>
-    </>
+    </div>
   );
 }
 

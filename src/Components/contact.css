@@ -1,8 +1,20 @@
 .contact {
-  padding-left: 5rem;
+  width: 100vw;
+  height: 20vh;
   color: white;
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 5vh auto 0rem auto;
 }
-.contact p {
+.s-icon:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.05);
+}
+.contact-icon {
+  height: 10vh;
   font-size: 1.1rem;
+  margin: auto;
+}
+.contact a {
+  padding: 2.5vh;
 }

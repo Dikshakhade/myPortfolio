@@ -11,13 +11,18 @@ function Project() {
         <div className="project1">
           <div className="description">
             <h2>Home Automation System </h2>
+
             <p>Mar 2023 - Apr 2023</p>
+            <br />
             <div>
               A home automation system where you can control home appliances
-              using web app <br />
-              Using React.js, Socket.io controlled with RaspberryPi
+              using web app connected with RaspberryPI <br />
+              <br />
+              Tech Stack: MongoDB, Node.JS, React.js, Socket.io, Express.JS,
+              JavaScript, HTML, CSS
             </div>
           </div>
+
           <a
             className="projimg"
             href="https://github.com/Dikshakhade/Home_Auto"
@@ -28,6 +33,7 @@ function Project() {
           </a>
         </div>
       </div>
+      <div className="under"></div>
       <div className="wrapper">
         <div className="project1">
           <div className="description">
@@ -40,10 +46,13 @@ function Project() {
               <h2>Booking System</h2>
             </a>
             <p>Mar 2023 - Apr 2023</p>
+            <br />
             <div>
-              An event booking system build using various web technologies{" "}
+              An event booking system for booking movie, train and bus tickets
               <br />
-              HTML, CSS, JavaScript, React.Js, Redux, MongoDB, Node.Js
+              <br />
+              Tech Stack: HTML, CSS, JavaScript, React.Js, Redux, MongoDB,
+              Node.Js
             </div>
           </div>
           <a
@@ -56,6 +65,7 @@ function Project() {
           </a>
         </div>
       </div>
+      <div className="under"></div>
       <div className="wrapper">
         <div className="project1">
           <div className="description">
@@ -69,8 +79,11 @@ function Project() {
               <h2>College Langing Page</h2>
             </a>
             <p> Nov 2022 - Dec 2022</p>
+            <br />
             <div>
               This is a Landing page build using HTML/CSS and JavaScript <br />
+              <br />
+              Tech Stack: HTML, CSS, JavaScript
             </div>
           </div>
           <a

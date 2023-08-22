@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import { Link } from "react-scroll";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 
 const links = [
   {
@@ -32,9 +32,8 @@ function NavBar() {
     e.preventDefault();
     // e.target.style.color = "black";
     const target = e.target.getAttribute("href");
-    const element = document.querySelector(target).offsetTop;
-    console.log(target);
-    console.log(element);
+    const element = document.querySelector(target).offsetTop - 100;
+
     window.scrollTo({
       left: 0,
       top: element,
@@ -43,14 +42,25 @@ function NavBar() {
   const [showLinks, setshowLinks] = useState(false);
   return (
     <>
-      <FontAwesomeIcon
-        icon={faBars}
-        className="button"
-        style={{ color: "white", margin: "20px", cursor: "pointer" }}
-        onClick={() => {
-          setshowLinks(!showLinks);
-        }}
-      />
+      {showLinks ? (
+        <FontAwesomeIcon
+          icon={faXmark}
+          className="button"
+          style={{ color: "#9f99d8", margin: "20px", cursor: "pointer" }}
+          onClick={() => {
+            setshowLinks(!showLinks);
+          }}
+        />
+      ) : (
+        <FontAwesomeIcon
+          icon={faBars}
+          className="button"
+          style={{ color: "#9f99d8", margin: "20px", cursor: "pointer" }}
+          onClick={() => {
+            setshowLinks(!showLinks);
+          }}
+        />
+      )}
       <div className="nav-wrap" id={showLinks ? "hidden" : ""}>
         <ul className="nav-content">
           {links.map((link) => {

@@ -1,27 +1,21 @@
 #ach-h1 {
-  color: white;
-  padding-left: 5rem;
+  color: #8276e3;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4vh;
 }
 .ach-wrap {
   width: 100vw;
   height: 50vh;
   display: flex;
   justify-content: center;
-  padding-top: 2rem;
+  margin: 5vh auto 0rem auto;
 }
 .ach-certi {
   height: 40vh;
   width: 40vw;
-
-  margin: 2rem auto;
 }
-.ach-certi p {
-  color: white;
 
-  text-align: center;
-  font-size: 1.5rem;
-  margin-top: 16rem;
-}
 #cert1 {
   background-image: url("../images/css.png");
   background-size: contain;
@@ -38,8 +32,11 @@
   .ach-wrap {
     width: 100%;
     height: 30%;
+    margin: 15%;
     flex-direction: column;
-    padding-left: 0px;
+  }
+  .ach-wrap a {
+    padding-bottom: 5%;
   }
   .ach-certi {
     width: 80%;

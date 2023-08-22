@@ -1,6 +1,6 @@
 import React from "react";
 import "./Intro.css";
-import About from "./About";
+import Pdf from "../images/Diksha_Khade.pdf";
 
 function Intro() {
   return (
@@ -9,9 +9,19 @@ function Intro() {
         <p className="introtxt">
           I'm <br /> Diksha Khade
         </p>
-        <p className="introtxtp">Full Stack Developer |</p>
+        <p className="introtxtp">Frontend Developer |</p>
+        <button className="intro-btn">
+          <a
+            href={Pdf}
+            rel="noopener noreferrer"
+            style={{ textDecoration: "none ", color: "white" }}
+          >
+            Resume
+          </a>
+        </button>
       </div>
-      <div className="pic">{/* <img src={icon} alt="icon" /> */}</div>
+
+      <div className="pic"></div>
     </div>
   );
 }
